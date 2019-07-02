@@ -13,6 +13,7 @@ class HomeController extends AbstractController
     public function homepage()
     {
        ///return new Response('Mi primera pagina');   
+       //dump($this); ó dd($this);
        return $this->render('home/home.html.twig');  
     }
 }
